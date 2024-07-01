@@ -5,9 +5,8 @@ EasyDropFiles is a JavaScript class for handling drag-and-drop file uploads with
 ## Features
 
 - Drag and drop file upload
-- File reading and conversion to various formats (text, Blob, Data URL)
+- File reading and conversion to various formats (text, Blob, DataURL)
 - Event listeners for drag, drop, and file input changes
-- Customizable CSS for drag-and-drop areas
 
 ## Installation
 
@@ -101,6 +100,3 @@ This project is licensed under the [MIT License](https://github.com/kojikuwabara
 
 ## Author
 Koji Kuwabara - [GitHub](https://github.com/kojikuwabara)
-
-## 
-This [`README.md`](https://github.com/kojikuwabara/easy-drop-files.js/blob/main/README.md) provides an overview of the [`EasyDropFiles`](https://github.com/kojikuwabara/easy-drop-files.js) class, including installation instructions, usage examples, method descriptions, and licensing information.
