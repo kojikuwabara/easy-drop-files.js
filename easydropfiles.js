@@ -4,7 +4,7 @@
 /*!
  * @classdesc Class representing a Drag and Drop utility.
  *
- * @author    Koji Kuwabara (https://github.com/kojikuwabara/easy-drop-files)
+ * @author    Koji Kuwabara (https://github.com/kojikuwabara/easy-drop-files.js)
  * @copyright 2024 Koji Kuwabara
  * @version   v1.0.0
  * @licence   Licensed under MIT (https://opensource.org/licenses/MIT)
