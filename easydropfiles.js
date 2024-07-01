@@ -201,8 +201,8 @@ class EasyDropFiles {
 							,"lastModified" : file.lastModified
 							,"arrayBuffer"  : event.target.result
 							,"getText"      : () => this.toText(event.target.result)
-							,"getBlob"      : () => this.toBlob(event.target.result)
-							,"getDataURL"   : () => this.toDataURL(event.target.result)
+							,"getBlob"      : () => this.toBlob(event.target.result, file.type)
+							,"getDataURL"   : () => this.toDataURL(event.target.result, file.type)
 						};
 						this.#loadedFiles.push(item);
 						resolve(true);
