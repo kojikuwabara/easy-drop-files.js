@@ -1,5 +1,5 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////////
-// EasyDropFiles Class
+// EasyDropFiles.js
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 /*!
  * @classdesc Class representing a Drag and Drop utility.
@@ -48,7 +48,7 @@ class EasyDropFiles {
 	#separatorForJoin = "\n";
 	#uploadIcon       = `%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2296%22%20height%3D%2296%22%20fill%3D%22%23696969%22%20class%3D%22bi%20bi-cloud-upload%22%20viewBox%3D%220%200%2016%2016%22%3E%3Cpath%20fill-rule%3D%22evenodd%22%20d%3D%22M4.406%201.342A5.53%205.53%200%200%201%208%200c2.69%200%204.923%202%205.166%204.579C14.758%204.804%2016%206.137%2016%207.773%2016%209.569%2014.502%2011%2012.687%2011H10a.5.5%200%200%201%200-1h2.688C13.979%2010%2015%208.988%2015%207.773c0-1.216-1.02-2.228-2.313-2.228h-.5v-.5C12.188%202.825%2010.328%201%208%201a4.53%204.53%200%200%200-2.941%201.1c-.757.652-1.153%201.438-1.153%202.055v.448l-.445.049C2.064%204.805%201%205.952%201%207.318%201%208.785%202.23%2010%203.781%2010H6a.5.5%200%200%201%200%201H3.781C1.708%2011%200%209.366%200%207.318c0-1.763%201.266-3.223%202.942-3.593.143-.863.698-1.723%201.464-2.383z%22%2F%3E%3Cpath%20fill-rule%3D%22evenodd%22%20d%3D%22M7.646%204.146a.5.5%200%200%201%20.708%200l3%203a.5.5%200%200%201-.708.708L8.5%205.707V14.5a.5.5%200%200%201-1%200V5.707L5.354%207.854a.5.5%200%201%201-.708-.708l3-3z%22%2F%3E%3C%2Fsvg%3E`;
 	#onDragoverCSS    = `
-		/* Added by EasyDropFiles Class */
+		/* Added by EasyDropFiles.js */
 		.ondragover {
 			background-color    : #A9A9A9; 
 			background-image    : url('data:image/svg+xml;utf8,${this.#uploadIcon}');
@@ -61,7 +61,7 @@ class EasyDropFiles {
 	`;
 	#dropAreaInfo = {};
 	#dropAreaCSS = `
-		/* Added by EasyDropFiles Class */
+		/* Added by EasyDropFiles.js */
 		.drop-area {
 			border     : 2px dashed #99999980;
 			padding    : 20px;
@@ -256,7 +256,7 @@ class EasyDropFiles {
 		try {
 			//Drop area tags
 			const DROPAREA_TAGS = `
-				<!-- Added by EasyDropFiles Class -->
+				<!-- Added by EasyDropFiles.js -->
 				<div class="drop-area" id="${dropAreaId}">
 					<span>Drag and drop files here, or click to select files.</span>
 					<input type="file" id="${inputId}" accept="${accept}" style="display: none;" multiple>
